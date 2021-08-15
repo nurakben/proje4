@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+
+#header {
+	width: 1000px;
+	height: 100px;
+	background: #fbf2d5;
+
+	margin: 0 auto;
+	display: table;
+}
+
+#header a{
+	text-decoration: none;
+	color: black;
+}
+
+#content{
+	width: 970px;
+	height: auto;
+	background: #fbf2d5;
+	padding: 10px 15px;
+
+	margin: 20px auto;
+	display: table;
+}
+
+#content h1, #content .sayfabanner{
+	margin: 0 auto 15px auto;
+	display: table;
+
+	height: auto;
+}
+
+#content .yazialani p{
+	font-size: 15px;
+	color: #394a51;
+}
+
+#footer{
+	width: 970px;
+	height: 15px;
+	padding: 10px 15px;
+	background: #fbf2d5;
+
+	margin: 0 auto;
+	display: table;
+}
+
+#footer p{
+	text-align: center;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.websitesilogo{
+	margin: 15px auto;
+	display: table;
+
+	width: 200px;
+	height: auto;
+}
+
+.menu{
+	margin: 20px auto;
+	display: table;
+}
+
+.menu li{
+	float: left;
+	list-style-type: none;
+	margin-right: 15px;
+}
+
+.menu li a{
+	color: #000;
+	font-size: 18px;
+	text-decoration: none;
+
+	padding: 5px 10px;
+	border: 1px solid black;
+}
+
+.menu li a:hover{
+	color: #f00;
+	border: 1px solid #f00;
+}
+
+.galeri{
+	margin: 0 auto;
+	display: table;
+}
+
+.galeri .fotograf{
+	float: left;
+	width: 150px;
+	height: 150px;
+	border: 1px solid orange;
+	padding: 5px;
+	background: #fdc57b;
+	margin: 0 15px 15px 55px;
+}
+
+.galeri .fotograf img{
+	width: 100%;
+	height: auto;
+}
+
+.secili{
+	color: #f00 !important;
+	border: 1px solid #f00 !important;
+}
+
+
+
+h1, h2{
+    color: #7fa99b;
+}
